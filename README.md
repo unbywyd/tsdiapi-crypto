@@ -25,7 +25,7 @@ import { createApp } from "@tsdiapi/server";
 import createPlugin from "@tsdiapi/crypto";
 
 createApp({
-    plugins: [createPlugin()]
+  plugins: [createPlugin()],
 });
 ```
 
@@ -44,12 +44,11 @@ createApp({
 This plugin can be configured via options when initializing:
 
 ```typescript
-createPlugin({
-});
+createPlugin({});
 ```
 
-| Option            | Type   | Default | Description |
-|------------------|-------|---------|-------------|
+| Option | Type | Default | Description |
+| ------ | ---- | ------- | ----------- |
 
 ---
 
@@ -64,8 +63,7 @@ import { createApp } from "@tsdiapi/server";
 import createPlugin from "@tsdiapi/crypto";
 
 const app = createApp({
-    plugins: [createPlugin({
-    })]
+  plugins: [createPlugin({})],
 });
 
 app.start();
@@ -85,7 +83,7 @@ You can find more **TSDIAPI** plugins here:
 Contributions are always welcome! If you have ideas for improving this plugin, feel free to open a pull request.
 
 **Author:** unbywyd  
-**GitHub Repository:** [https://github.com/unbywyd/tsdiapi-crypto](https://github.com/unbywyd/tsdiapi-crypto)  
+**GitHub Repository:** [https://github.com/unbywyd/tsdiapi-crypto](https://github.com/unbywyd/tsdiapi-crypto)
 
 📧 **Contact:** unbywyd@gmail.com
 

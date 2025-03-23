@@ -1,7 +1,7 @@
 {
   "name": "@tsdiapi/crypto",
   "description": "A TSDIAPI plugin to extend API functionality with crypto.",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "main": "output/index.js",
   "types": "output/index.d.ts",
   "type": "module",
@@ -33,7 +33,7 @@
     "generators/"
   ],
   "devDependencies": {
-    "@tsdiapi/server": "^0.1.1",
+    "@tsdiapi/server": "^0.2.0",
     "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
   },

@@ -10,12 +10,13 @@ class App implements AppPlugin {
     name = 'tsdiapi-crypto';
     config: PluginOptions;
     context: AppContext;
+    services: AppPlugin['services'] = [];
     constructor(config?: PluginOptions) {
         this.config = { ...config };
     }
     async onInit(ctx: AppContext) {
         this.context = ctx;
-        ctx.container.get(CryptoService);
+        this.services.push(CryptoService);
     }
 }
 

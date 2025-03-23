@@ -5,12 +5,13 @@ class App {
     name = 'tsdiapi-crypto';
     config;
     context;
+    services = [];
     constructor(config) {
         this.config = { ...config };
     }
     async onInit(ctx) {
         this.context = ctx;
-        ctx.container.get(CryptoService);
+        this.services.push(CryptoService);
     }
 }
 export default function createPlugin(config) {

@@ -6,6 +6,7 @@ declare class App implements AppPlugin {
     name: string;
     config: PluginOptions;
     context: AppContext;
+    services: AppPlugin['services'];
     constructor(config?: PluginOptions);
     onInit(ctx: AppContext): Promise<void>;
 }
