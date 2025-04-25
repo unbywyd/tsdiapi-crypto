@@ -1,7 +1,6 @@
 import "reflect-metadata";
 import type { AppContext, AppPlugin } from "@tsdiapi/server";
 import { CryptoService } from "./crypto.service.js";
-export { CryptoService } from "./crypto.service.js";
 
 export type PluginOptions = {
 }

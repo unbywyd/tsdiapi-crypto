@@ -1,0 +1,10 @@
+{
+  "name": "tsdiapi-crypto",
+  "description": "A TSDIAPI plugin that provides automatic CRYPTO (Encrypt, Decrypt) API generation for your database entities. It generates TypeScript modules and services with full type safety, validation, and best practices.",
+  "preMessages": [
+    "👋 Welcome to the TSDIAPI CRYPTO plugin configuration!"
+  ],
+  "postMessages": [
+    "✅ Plugin successfully installed!"
+  ]
+}

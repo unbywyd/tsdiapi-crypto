@@ -1,6 +1,5 @@
 import "reflect-metadata";
 import { CryptoService } from "./crypto.service.js";
-export { CryptoService } from "./crypto.service.js";
 class App {
     name = 'tsdiapi-crypto';
     config;
